@@ -21,7 +21,8 @@ export default defineConfig({
       input: {
         main: path.resolve(__dirname, 'index.html'),
         schedule: path.resolve(__dirname, 'schedule.html'),
-        technicalsessions: path.resolve(__dirname, 'technicalsessions.html')
+        technicalsessions: path.resolve(__dirname, 'technicalsessions.html'),
+        ebooklet: path.resolve(__dirname, 'ebooklet.html')
       }
     }
   }
