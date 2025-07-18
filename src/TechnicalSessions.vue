@@ -685,7 +685,7 @@ const sessions = ref([
         <AccordionPanel v-for="(session, index) in sessions" :key="index" :value="index">
           <AccordionHeader>{{ session.name }}</AccordionHeader>
           <AccordionContent pt:content:class="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-center">
-            <div class="flex flex-col justify-center items-center shrink-0"><Qrcode :value="session.qrdata" scale="100" errorCorrectionLevel="L" class="w-full max-w-50"></Qrcode></div>
+            <div class="flex flex-col justify-center items-center shrink-0"><Qrcode :value="'hi'" scale="100" errorCorrectionLevel="L" class="w-full max-w-50"></Qrcode></div>
             <div class="flex flex-col gap-3 w-full">
               <div v-for="paper in session.papers" :key="paper.id">
                 <Card>
