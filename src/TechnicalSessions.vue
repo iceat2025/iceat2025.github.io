@@ -1,8 +1,13 @@
 <script setup>
 import { ref } from "vue";
 import Main from "./Main.vue"
-// import Qrcode from "vue-qrcode"
 import Qrcode from "qrcode.vue"
+import ImgRegister from "./assets/1.register.png"
+import ImgParticipants from "./assets/2.participants.png"
+import ImgConfirmation from "./assets/3.confirmation.png"
+import ImgEmail from "./assets/4.email.png"
+import ImgEventJoinPage from "./assets/5.event-join-page.png"
+import ImgEventJoiningDetails from "./assets/6.event-joining-details.png"
 
 const sessions = ref([
   {
@@ -683,6 +688,30 @@ const sessions = ref([
   <Card pt:content:class="flex flex-col gap-3" pt:root:class="max-w-4xl">
     <template #title><span class="font-light">Technical Sessions</span></template>
     <template #content>
+      <Panel toggleable collapsed header="How to join a technical session?" pt:header:class="!bg-primary-300">
+        <div class="mt-2 pl-5">
+          <ol class="list-decimal">
+            <li>
+              Scan the QR code or click on the <Button>Event Page</Button> under the relevant Technical Session to go to its respective event page.
+            </li>
+            <li>
+              On the event page, click the <Button class="teamsbutton">Register</Button> to go the registration page.
+              <br>
+              <div class="instructionimagecontainer"><img class="instructionimage" :src="ImgRegister"/></div>
+            </li>
+            <li>
+              Fill in your name, email address, and agree to the terms and conditions before clicking the  <Button class="teamsbutton">Register</Button>.
+              <br>
+              <img class="instructionimage" :src="ImgParticipants"/>
+            </li>
+            <li>
+              You will see a dialog box indicating successful registration.
+              <br>
+              <img class="instructionimage" :src="ImgConfirmation"/>
+            </li>
+          </ol>
+        </div>
+      </Panel>
       <Accordion value="0">
         <AccordionPanel v-for="(session, index) in sessions" :key="index" :value="index">
           <AccordionHeader>
@@ -693,6 +722,7 @@ const sessions = ref([
           <AccordionContent pt:content:class="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-center">
             <div class="flex flex-col justify-center items-center shrink-0" v-if="session.qrdata">
               <Qrcode :value="session.qrdata" :size="200" :margin="2" class="w-full max-w-50"></Qrcode>
+              <a :href="session.qrdata" target="_blank"><Button>Event Page</Button></a>
             </div>
             <div class="flex flex-col gap-3 w-full">
               <div v-for="paper in session.papers" :key="paper.id">
@@ -706,23 +736,29 @@ const sessions = ref([
           </AccordionContent>
         </AccordionPanel>
       </Accordion>
-
-
-      <!-- <Panel v-for="(session, index) in sessions" :key="index">
-          <template #header>{{ session.name }}</template>
-          <div pt:content:class="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-center">
-            <div class="flex flex-col justify-center items-center shrink-0"><Qrcode :value="'hi'" scale="100" errorCorrectionLevel="L" class="w-full max-w-50"></Qrcode></div>
-            <div class="flex flex-col gap-3 w-full">
-              <div v-for="paper in session.papers" :key="paper.id">
-                <Card>
-                  <template #title>Paper ID: {{ paper.id }}</template>
-                  <template #content>{{ paper.title }}</template>
-                </Card>
-              </div>
-            </div>
-          </div>
-        </Panel> -->
     </template>
   </Card>
   </div>
 </template>
+
+<style scoped>
+@reference "../src/style.css";
+.teamsbutton {
+  background-color: #5B5FC7;
+  color: white;
+  border-color: #5B5FC7;
+}
+
+.teamsbutton:hover {
+  background-color: #4F52B2;
+  color: white;
+  border-color: #4F52B2;
+}
+
+.instructionimagecontainer {
+  @apply w-full text-center
+}
+.instructionimage {
+  @apply border border-primary my-2 p-2 border-2 max-w-8/10
+}
+</style>
