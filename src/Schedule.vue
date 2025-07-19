@@ -28,7 +28,7 @@ const schedule = ref([
   {
     date: "24 July 2025",
     events: [
-      { time: "9:30", name: "Keynote 4", venue: "LT7", title: "Advanced Techonolgy Vehicles", speaker: "AP Dr Hj Firas Basim Alnaimi" },
+      { time: "9:30", name: "Keynote 4", venue: "LT7", title: "Advances in Solar Photovoltaic Techonolgy", speaker: "Prof Dr Hussein A Kazem" },
       { time: "10:15", name: "Tea break", venue: "LT7" },
       { time: "10:45", name: "Keynote 5", venue: "LT7", title: "Rubbercrete Bricks: Pioneering Sustainable Construction with Scrap Tire Innovation", speaker: "Ir AP Dr Bashar S Mohammed" },
       { time: "11:30", name: "Keynote 6", venue: "LT7", title: "Engineering Innovation: From Control to Creativity", speaker: "Ir Dr Chua Yaw Long" },
