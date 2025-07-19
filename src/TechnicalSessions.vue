@@ -689,7 +689,7 @@ const sessions = ref([
     <template #title><span class="font-light">Technical Sessions</span></template>
     <template #content>
       <Accordion value="-1" pt:root:class="border rounded-lg border-primary-200 border-1">
-        <AccordionPanel value="0" pt:root:class="!border-primary-100">
+        <!-- <AccordionPanel value="0" pt:root:class="!border-primary-100">
           <AccordionHeader pt:root:class="!bg-primary-200">How to register to a technical session?</AccordionHeader>
           <AccordionContent>
             <div class="mt-2 pl-5">
@@ -749,15 +749,17 @@ const sessions = ref([
               </ol>
             </div>
           </AccordionContent>
-        </AccordionPanel>
+        </AccordionPanel> -->
         <AccordionPanel value="1" pt:root:class="!border-primary-100">
           <AccordionHeader pt:root:class="!bg-primary-200">How to join a technical session?</AccordionHeader>
           <AccordionContent>
             <div class="mt-2 pl-5">
-              <Message severity="secondary"><span class="font-bold">Summary</span><br>Click on the link in your email and join the event from browser or MS Teams app.</Message>
+              <!-- <Message severity="secondary"><span class="font-bold">Summary</span><br>Click on the link in your email and join the event from browser or MS Teams app.</Message> -->
+              <Message severity="secondary"><span class="font-bold">Summary</span><br>Scan the QR code or click <Button>Event Page</Button> and join the event from browser or MS Teams app.</Message>
               <ol class="list-decimal">
                 <li>
-                  Click on the event link in the email you receive after registration.
+                  <!-- Click on the event link in the email you receive after registration. -->
+                  Scan the QR code or click  <Button>Event Page</Button> under the relevant Technical Session to go to its respective event page.
                   <br>
                   <div class="instructionimagecontainer">
                     <Inplace>
