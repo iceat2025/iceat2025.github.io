@@ -67,7 +67,7 @@ const sessions = ref([
     "name": "Technical Session 1: Functional Materials and Nanotechnology in Chemical Engineering",
     "date": "23 July, 2025",
     "time": "10:00 - 12:00",
-    "qrdata": "https://events.teams.microsoft.com/event/9e8379da-cfbd-473e-ab23-69960c2fdb9e@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjA4OWI2YmQtMDVkNS00ZWFmLTgyY2ItNjAwY2MxZjdkN2Q3%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%2220139bde-3833-4a63-a375-20165b804209%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 20,
@@ -110,7 +110,7 @@ const sessions = ref([
     "name": "Technical Session 2: Intelligent Power and Communication Systems for Smart Infrastructure",
     "date": "23 July, 2025",
     "time": "10:00 - 12:15",
-    "qrdata": "https://events.teams.microsoft.com/event/74c15f61-c757-496d-a713-230df9a591ab@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjExNGE5OTUtM2ZkNS00MjM4LWJmMTctYTJhYWUyMjI2MDY4%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22e248b2b2-6ae8-44ab-baa1-86feafdc1c3b%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 8,
@@ -158,7 +158,7 @@ const sessions = ref([
     "name": "Technical Session 3: Composite Materials, Structural Mechanics, and Manufacturing Innovations",
     "date": "23 July, 2025",
     "time": "10:00 - 12:15",
-    "qrdata": "https://events.teams.microsoft.com/event/a36c6851-6d53-44e1-953e-bc242cf1a439@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDJhZjBiYzQtYmVkMS00YTNlLWJjMjktMTJlYTUxYmE1ZGY4%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22b7ee7329-41e0-4845-a1be-d398d04ee476%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 170,
@@ -206,7 +206,7 @@ const sessions = ref([
     "name": "Technical Session 4: AI-Driven Intelligent Systems for Cybersecurity, Healthcare, and Smart Infrastructure",
     "date": "23 July, 2025",
     "time": "14:00 - 16:45",
-    "qrdata": "https://events.teams.microsoft.com/event/f841b318-f93f-459b-b45e-09d597adbd9c@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZDRhZmM2YzUtN2ViNi00M2I1LTliNjEtMjQ4OTdmYjVjYTM5%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22786c612a-066c-4596-a020-50950fbbf7d4%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 10,
@@ -264,7 +264,7 @@ const sessions = ref([
     "name": "Technical Session 5: Mechanical Systems, Materials Engineering, and Thermal-Energy Applications",
     "date": "23 July, 2025",
     "time": "14:00 - 16:45",
-    "qrdata": "https://events.teams.microsoft.com/event/b72a7877-bbd1-4623-8fca-181f5496a75f@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjFjMDdhOWItMjQxNS00ZDQ2LThjNzAtMTFjY2M1MDUzNzI2%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22882630c7-20b6-4bb7-91ba-a366daeb372c%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 82,
@@ -322,7 +322,7 @@ const sessions = ref([
     "name": "Technical Session 6: Smart and Sustainable Materials in Civil Infrastructure Engineering",
     "date": "23 July, 2025",
     "time": "14:00 - 16:15",
-    "qrdata": "https://events.teams.microsoft.com/event/3e1caa67-acd5-4c3b-8827-2270d60f28b6@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGY5NTZiMWUtYWZlZC00MjViLTg2MzYtMTk4ODY0MTFmMTI1%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%226f82bca0-b404-466f-b11e-67acc49f9848%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 137,
@@ -370,7 +370,7 @@ const sessions = ref([
     "name": "Technical Session 7: Hydraulic and Urban Systems in Civil Engineering",
     "date": "23 July, 2025",
     "time": "14:00 - 16:30",
-    "qrdata": "https://events.teams.microsoft.com/event/c5894af4-999b-4977-a756-c0b75563dc41@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODY4YjIzYWYtZmUxNi00YzY0LTgxMGYtNDBhNGU3Zjk3NmEz%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22aebe1a8d-6246-486a-a733-5297c8cea7a8%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 57,
@@ -423,7 +423,7 @@ const sessions = ref([
     "name": "Technical Session 8: Sustainable Structural Systems and Materials in Civil Engineering",
     "date": "24 July, 2025",
     "time": "10:00 - 12:30",
-    "qrdata": "https://events.teams.microsoft.com/event/3f2c9e17-c6a0-4288-a6bd-bb3fecc50f3d@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjY4MDk3YjAtMDU3Ni00ZTlkLTgwOWItNzJjZGRkN2I3OGNh%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22c088ff78-9819-4f26-b40a-726da4b61c9e%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 55,
@@ -476,7 +476,7 @@ const sessions = ref([
     "name": "Technical Session 9: Biofuels, Catalysis, and Resource Recovery",
     "date": "24 July, 2025",
     "time": "10:00 - 12:45",
-    "qrdata": "https://events.teams.microsoft.com/event/5e396332-5dd3-41c0-993d-78d8c258c6c1@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTAxMTNmZGItZGUwOC00ZmMzLTgxOTAtMzJmM2JjYzY4Mjgw%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22de11e0f0-3fb7-4d1d-b081-10e3506ffa97%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 15,
@@ -534,7 +534,7 @@ const sessions = ref([
     "name": "Technical Session 10: Environmental and Wastewater Treatment Technologies",
     "date": "24 July, 2025",
     "time": "10:00 - 12:30",
-    "qrdata": "https://events.teams.microsoft.com/event/0e50d0ff-f85b-4d06-9385-bcb8b85ec50f@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWNjMGNjYzYtZmQ2YS00MTcxLWE4MTktYzBiMjk5ZWJlNGM1%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22e70e80ed-7ea7-45eb-b47c-ce857fb4cb94%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 13,
@@ -587,7 +587,7 @@ const sessions = ref([
     "name": "Technical Session 11: Mechatronics, Robotics, and Smart Automation Systems",
     "date": "24 July, 2025",
     "time": "10:00 - 11:30",
-    "qrdata": "https://events.teams.microsoft.com/event/555b314b-2ce8-4107-8b33-2cf3333e0bf8@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjUyZGNjMTItZWM5MC00MGU5LWFhODEtNTg4MWM0Y2NlMjI0%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22ae15a5d9-c686-4400-9661-6f421c607a8e%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 93,
@@ -625,7 +625,7 @@ const sessions = ref([
     "name": "Technical Session 12: Smart Computing, IoT Systems, and Intelligent Infrastructure",
     "date": "24 July, 2025",
     "time": "10:00 - 12:45",
-    "qrdata": "https://events.teams.microsoft.com/event/656ac187-60be-4a74-9f47-03a0e7374ebf@051008eb-db40-4249-9ece-9df3e8c3f594",
+    "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjQzMDM0NTQtNjNhNS00YWNhLTgxN2ItMWUwZTExNGRkMzhm%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%224915cd99-adf5-4936-9b50-c92ee5c8c3b5%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
         "id": 35,
