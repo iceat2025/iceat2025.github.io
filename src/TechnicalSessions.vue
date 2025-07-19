@@ -1,14 +1,15 @@
 <script setup>
 import { ref } from "vue";
 import Main from "./Main.vue"
-import Qrcode from "vue-qrcode"
+// import Qrcode from "vue-qrcode"
+import Qrcode from "qrcode.vue"
 
 const sessions = ref([
   {
-    "name": "Physical Session",
+    "name": "Physical Session (LT7)",
     "date": "23 July, 2025",
     "time": "14:00 - 16:30",
-    "qrdata": "Physical Session",
+    // "qrdata": "Sunway University LT7",
     "papers": [
       {
         "id": 4,
@@ -199,65 +200,65 @@ const sessions = ref([
   {
     "name": "Technical Session 4: AI-Driven Intelligent Systems for Cybersecurity, Healthcare, and Smart Infrastructure",
     "date": "23 July, 2025",
-    "time": "14:00 - 04:45",
+    "time": "14:00 - 16:45",
     "qrdata": "Technical Session 4: AI-Driven Intelligent Systems for Cybersecurity, Healthcare, and Smart Infrastructure",
     "papers": [
       {
         "id": 10,
         "title": "Optimizing Operating Room Scheduling Using Artificial Bee Colony and Bat Algorithm: A Comparative Analysis ",
-        "time": "02:00 - 02:15"
+        "time": "14:00 - 14:15"
       },
       {
         "id": 25,
         "title": "SmartSARIMAX: An Advanced Model for Bandwidth Prediction in Data Networks",
-        "time": "02:15 - 02:30"
+        "time": "14:15 - 14:30"
       },
       {
         "id": 74,
         "title": "A Multi-Kernel Convolutional Neural Network Model for Classifying Plant Leaf Diseases",
-        "time": "02:30 - 02:45"
+        "time": "14:30 - 14:45"
       },
       {
         "id": 92,
         "title": "Review paper: Deep Learning Based Biometric Recognition Model Using Finger and Palm Vein Images",
-        "time": "02:45 - 03:00"
+        "time": "14:45 - 15:00"
       },
       {
         "id": 104,
         "title": "Machine Learning-Driven Meta surfaces for Adaptive 6G Beamforming in Dynamic Terahertz Channels",
-        "time": "03:00 - 03:15"
+        "time": "15:00 - 15:15"
       },
       {
         "id": 111,
         "title": "Predicting Adult Income Utilizing Various Artificial Intelligence Models",
-        "time": "03:30 - 03:45"
+        "time": "15:30 - 15:45"
       },
       {
         "id": 114,
         "title": "Analyzing Power Plant Data Using Artificial Intelligence to Enhance Maintenance Strategy ",
-        "time": "03:45 - 04:00"
+        "time": "15:45 - 16:00"
       },
       {
         "id": 193,
         "title": "Leveraging AI for Customer Segmentation and Predictive Insights to Elevate E-Commerce Satisfaction ",
-        "time": "04:00 - 04:15"
+        "time": "16:00 - 16:15"
       },
       {
         "id": 201,
         "title": "PhisNet: Intelligent Detection of Phishing ",
-        "time": "04:15 - 04:30"
+        "time": "16:15 - 16:30"
       },
       {
         "id": 202,
         "title": "A Real-Time Fall Detection Framework using Vision Transformer and LSTM for Elderly People ",
-        "time": "04:30 - 04:45"
+        "time": "16:30 - 16:45"
       }
     ]
   },
   {
     "name": "Technical Session 5: Mechanical Systems, Materials Engineering, and Thermal-Energy Applications",
     "date": "23 July, 2025",
-    "time": "14:00 - 04:45",
+    "time": "14:00 - 16:45",
     "qrdata": "Technical Session 5: Mechanical Systems, Materials Engineering, and Thermal-Energy Applications",
     "papers": [
       {
@@ -404,12 +405,12 @@ const sessions = ref([
       {
         "id": 176,
         "title": "Development of a Curve Number Map for the Ali Al-Gharbi District, Southern Iraq, Using GIS ",
-        "time": "16:00 - 04:15"
+        "time": "16:00 - 16:15"
       },
       {
         "id": 181,
         "title": "Future Forecasts Of Rainfall Utilising The LARS-WG And CMIP6 Models ",
-        "time": "16:15 - 04:30"
+        "time": "16:15 - 16:30"
       }
     ]
   },
@@ -678,13 +679,38 @@ const sessions = ref([
 
 <template>
   <Main></Main>
-  <Card pt:content:class="text-center flex flex-col gap-3">
+  <div class="flex justify-center">
+  <Card pt:content:class="flex flex-col gap-3" pt:root:class="max-w-4xl">
     <template #title><span class="font-light">Technical Sessions</span></template>
     <template #content>
       <Accordion value="0">
         <AccordionPanel v-for="(session, index) in sessions" :key="index" :value="index">
-          <AccordionHeader>{{ session.name }}</AccordionHeader>
+          <AccordionHeader>
+            <div>
+              <div>{{ session.name }}</div>
+              <div class="font-thin text-sm">{{ session.date }} ({{ session.time }})</div>
+            </div></AccordionHeader>
           <AccordionContent pt:content:class="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-center">
+            <div class="flex flex-col justify-center items-center shrink-0" v-if="session.qrdata">
+              <Qrcode :value="session.qrdata" :size="200" :margin="2" class="w-full max-w-50"></Qrcode>
+            </div>
+            <div class="flex flex-col gap-3 w-full">
+              <div v-for="paper in session.papers" :key="paper.id">
+                <Card>
+                  <template #title>Paper ID: {{ paper.id }}</template>
+                  <template #subtitle>{{ paper.time }}</template>
+                  <template #content>{{ paper.title }}</template>
+                </Card>
+              </div>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+      </Accordion>
+
+
+      <!-- <Panel v-for="(session, index) in sessions" :key="index">
+          <template #header>{{ session.name }}</template>
+          <div pt:content:class="flex flex-col md:flex-row items-center justify-center md:items-start md:justify-center">
             <div class="flex flex-col justify-center items-center shrink-0"><Qrcode :value="'hi'" scale="100" errorCorrectionLevel="L" class="w-full max-w-50"></Qrcode></div>
             <div class="flex flex-col gap-3 w-full">
               <div v-for="paper in session.papers" :key="paper.id">
@@ -694,9 +720,9 @@ const sessions = ref([
                 </Card>
               </div>
             </div>
-          </AccordionContent>
-        </AccordionPanel>
-      </Accordion>
+          </div>
+        </Panel> -->
     </template>
   </Card>
+  </div>
 </template>
