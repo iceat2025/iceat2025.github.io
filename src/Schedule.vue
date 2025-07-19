@@ -44,40 +44,42 @@ const schedule = ref([
 
 <template>
   <Main></Main>
-  <Card pt:content:class="text-center flex flex-col gap-3">
-    <template #title><span class="font-light">Schedule</span></template>
-    <template #content>
-      <Panel v-for="day in schedule" pt:header:class="!justify-center font-bold">
-        <template #header>{{ day.date }}</template>
-        <Timeline :value="day.events" pt:eventcontent:class="relative -top-1" pt:eventopposite:class="relative -top-1 !basis-20 !grow-0 !shrink-0">
-          <template #opposite="slotProps">{{ slotProps.item.time }}</template>
-          <template #content="slotProps">
-            <!-- <div> -->
-            <Fieldset v-if="slotProps.item.title" pt:root:class="relative -top-3">
-              <template #legend>{{ slotProps.item.name }} ({{ slotProps.item.venue }})</template>
-              <div class="flex flex-col">
-                <span class="font-bold">{{ slotProps.item.title }}</span>
-                <span class="text-right" v-if="slotProps.item.speaker">by {{ slotProps.item.speaker }}</span>
-              </div>
-            </Fieldset>
-            <Fieldset v-else-if="slotProps.item.events" pt:root:class="relative -top-3">
-              <template #legend>{{ slotProps.item.name }} ({{ slotProps.item.venue }})</template>
-              <Timeline :value="slotProps.item.events" pt:eventcontent:class="relative -top-1" pt:eventopposite:class="relative -top-1 !basis-20 !grow-0 !shrink-0">
-                <template #opposite="sp">{{ sp.item.time }}</template>
-                <template #content="sp">
-                  <div class="flex flex-col">
-                    <span>{{ sp.item.name }}</span>
-                    <span class="text-right" v-if="sp.item.speaker">by {{ sp.item.speaker }}</span>
-                    <span class="text-right" v-if="sp.item.institute">{{ sp.item.institute }}</span>
-                  </div>
-                </template>
-              </Timeline>
-            </Fieldset>
-            <div v-else class="ml-[30px]">{{ slotProps.item.name }} <span v-if="slotProps.item.venue">({{ slotProps.item.venue }})</span></div>
-            <!-- </div> -->
-          </template>
-        </Timeline>
-      </Panel>
-    </template>
-  </Card>
+  <div class="flex justify-center">
+    <Card pt:content:class="text-center flex flex-col gap-3" pt:root:class="max-w-4xl">
+      <template #title><span class="font-light">Schedule</span></template>
+      <template #content>
+        <Panel v-for="day in schedule" pt:header:class="!justify-center font-bold">
+          <template #header>{{ day.date }}</template>
+          <Timeline :value="day.events" pt:eventcontent:class="relative -top-1" pt:eventopposite:class="relative -top-1 !basis-20 !grow-0 !shrink-0">
+            <template #opposite="slotProps">{{ slotProps.item.time }}</template>
+            <template #content="slotProps">
+              <!-- <div> -->
+              <Fieldset v-if="slotProps.item.title" pt:root:class="relative -top-3">
+                <template #legend>{{ slotProps.item.name }} ({{ slotProps.item.venue }})</template>
+                <div class="flex flex-col">
+                  <span class="font-bold">{{ slotProps.item.title }}</span>
+                  <span class="text-right" v-if="slotProps.item.speaker">by {{ slotProps.item.speaker }}</span>
+                </div>
+              </Fieldset>
+              <Fieldset v-else-if="slotProps.item.events" pt:root:class="relative -top-3">
+                <template #legend>{{ slotProps.item.name }} ({{ slotProps.item.venue }})</template>
+                <Timeline :value="slotProps.item.events" pt:eventcontent:class="relative -top-1" pt:eventopposite:class="relative -top-1 !basis-20 !grow-0 !shrink-0">
+                  <template #opposite="sp">{{ sp.item.time }}</template>
+                  <template #content="sp">
+                    <div class="flex flex-col">
+                      <span>{{ sp.item.name }}</span>
+                      <span class="text-right" v-if="sp.item.speaker">by {{ sp.item.speaker }}</span>
+                      <span class="text-right" v-if="sp.item.institute">{{ sp.item.institute }}</span>
+                    </div>
+                  </template>
+                </Timeline>
+              </Fieldset>
+              <div v-else class="ml-[30px]">{{ slotProps.item.name }} <span v-if="slotProps.item.venue">({{ slotProps.item.venue }})</span></div>
+              <!-- </div> -->
+            </template>
+          </Timeline>
+        </Panel>
+      </template>
+    </Card>
+  </div>
 </template>
