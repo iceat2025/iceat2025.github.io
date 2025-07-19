@@ -62,7 +62,7 @@ const sessions = ref([
     "name": "Technical Session 1: Functional Materials and Nanotechnology in Chemical Engineering",
     "date": "23 July, 2025",
     "time": "10:00 - 12:00",
-    "qrdata": "Technical Session 1: Functional Materials and Nanotechnology in Chemical Engineering",
+    "qrdata": "https://events.teams.microsoft.com/event/9e8379da-cfbd-473e-ab23-69960c2fdb9e@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 20,
@@ -105,7 +105,7 @@ const sessions = ref([
     "name": "Technical Session 2: Intelligent Power and Communication Systems for Smart Infrastructure",
     "date": "23 July, 2025",
     "time": "10:00 - 12:15",
-    "qrdata": "Technical Session 2: Intelligent Power and Communication Systems for Smart Infrastructure",
+    "qrdata": "https://events.teams.microsoft.com/event/74c15f61-c757-496d-a713-230df9a591ab@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 8,
@@ -153,7 +153,7 @@ const sessions = ref([
     "name": "Technical Session 3: Composite Materials, Structural Mechanics, and Manufacturing Innovations",
     "date": "23 July, 2025",
     "time": "10:00 - 12:15",
-    "qrdata": "Technical Session 3: Composite Materials, Structural Mechanics, and Manufacturing Innovations",
+    "qrdata": "https://events.teams.microsoft.com/event/a36c6851-6d53-44e1-953e-bc242cf1a439@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 170,
@@ -201,7 +201,7 @@ const sessions = ref([
     "name": "Technical Session 4: AI-Driven Intelligent Systems for Cybersecurity, Healthcare, and Smart Infrastructure",
     "date": "23 July, 2025",
     "time": "14:00 - 16:45",
-    "qrdata": "Technical Session 4: AI-Driven Intelligent Systems for Cybersecurity, Healthcare, and Smart Infrastructure",
+    "qrdata": "https://events.teams.microsoft.com/event/f841b318-f93f-459b-b45e-09d597adbd9c@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 10,
@@ -259,7 +259,7 @@ const sessions = ref([
     "name": "Technical Session 5: Mechanical Systems, Materials Engineering, and Thermal-Energy Applications",
     "date": "23 July, 2025",
     "time": "14:00 - 16:45",
-    "qrdata": "Technical Session 5: Mechanical Systems, Materials Engineering, and Thermal-Energy Applications",
+    "qrdata": "https://events.teams.microsoft.com/event/b72a7877-bbd1-4623-8fca-181f5496a75f@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 82,
@@ -317,7 +317,7 @@ const sessions = ref([
     "name": "Technical Session 6: Smart and Sustainable Materials in Civil Infrastructure Engineering",
     "date": "23 July, 2025",
     "time": "14:00 - 16:15",
-    "qrdata": "Technical Session 6: Smart and Sustainable Materials in Civil Infrastructure Engineering",
+    "qrdata": "https://events.teams.microsoft.com/event/3e1caa67-acd5-4c3b-8827-2270d60f28b6@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 137,
@@ -365,7 +365,7 @@ const sessions = ref([
     "name": "Technical Session 7: Hydraulic and Urban Systems in Civil Engineering",
     "date": "23 July, 2025",
     "time": "14:00 - 16:30",
-    "qrdata": "Technical Session 7: Hydraulic and Urban Systems in Civil Engineering",
+    "qrdata": "https://events.teams.microsoft.com/event/c5894af4-999b-4977-a756-c0b75563dc41@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 57,
@@ -418,7 +418,7 @@ const sessions = ref([
     "name": "Technical Session 8: Sustainable Structural Systems and Materials in Civil Engineering",
     "date": "24 July, 2025",
     "time": "10:00 - 12:30",
-    "qrdata": "Technical Session 8: Sustainable Structural Systems and Materials in Civil Engineering",
+    "qrdata": "https://events.teams.microsoft.com/event/3f2c9e17-c6a0-4288-a6bd-bb3fecc50f3d@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 55,
@@ -471,7 +471,7 @@ const sessions = ref([
     "name": "Technical Session 9: Biofuels, Catalysis, and Resource Recovery",
     "date": "24 July, 2025",
     "time": "10:00 - 12:45",
-    "qrdata": "Technical Session 9: Biofuels, Catalysis, and Resource Recovery",
+    "qrdata": "https://events.teams.microsoft.com/event/5e396332-5dd3-41c0-993d-78d8c258c6c1@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 15,
@@ -529,7 +529,7 @@ const sessions = ref([
     "name": "Technical Session 10: Environmental and Wastewater Treatment Technologies",
     "date": "24 July, 2025",
     "time": "10:00 - 12:30",
-    "qrdata": "Technical Session 10: Environmental and Wastewater Treatment Technologies",
+    "qrdata": "https://events.teams.microsoft.com/event/0e50d0ff-f85b-4d06-9385-bcb8b85ec50f@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 13,
@@ -582,7 +582,7 @@ const sessions = ref([
     "name": "Technical Session 11: Mechatronics, Robotics, and Smart Automation Systems",
     "date": "24 July, 2025",
     "time": "10:00 - 11:30",
-    "qrdata": "Technical Session 11: Mechatronics, Robotics, and Smart Automation Systems",
+    "qrdata": "https://events.teams.microsoft.com/event/555b314b-2ce8-4107-8b33-2cf3333e0bf8@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 93,
@@ -620,7 +620,7 @@ const sessions = ref([
     "name": "Technical Session 12: Smart Computing, IoT Systems, and Intelligent Infrastructure",
     "date": "24 July, 2025",
     "time": "10:00 - 12:45",
-    "qrdata": "Technical Session 12: Smart Computing, IoT Systems, and Intelligent Infrastructure",
+    "qrdata": "https://events.teams.microsoft.com/event/656ac187-60be-4a74-9f47-03a0e7374ebf@051008eb-db40-4249-9ece-9df3e8c3f594",
     "papers": [
       {
         "id": 35,
