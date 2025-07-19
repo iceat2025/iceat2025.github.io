@@ -689,7 +689,7 @@ const sessions = ref([
     <template #title><span class="font-light">Technical Sessions</span></template>
     <template #content>
       <Accordion value="-1" pt:root:class="border rounded-lg border-primary-200 border-1">
-        <AccordionPanel value="0">
+        <AccordionPanel value="0" pt:root:class="!border-primary-100">
           <AccordionHeader pt:root:class="!bg-primary-200">How to register to a technical session?</AccordionHeader>
           <AccordionContent>
             <div class="mt-2 pl-5">
@@ -750,7 +750,7 @@ const sessions = ref([
             </div>
           </AccordionContent>
         </AccordionPanel>
-        <AccordionPanel value="1">
+        <AccordionPanel value="1" pt:root:class="!border-primary-100">
           <AccordionHeader pt:root:class="!bg-primary-200">How to join a technical session?</AccordionHeader>
           <AccordionContent>
             <div class="mt-2 pl-5">
@@ -796,7 +796,7 @@ const sessions = ref([
             </div>
           </AccordionContent>
         </AccordionPanel>
-        <AccordionPanel value="2">
+        <AccordionPanel value="2" pt:root:class="!border-primary-100">
           <AccordionHeader pt:root:class="!bg-primary-200">For presenter</AccordionHeader>
           <AccordionContent>
             <div class="mt-2 text-center">
