@@ -688,30 +688,132 @@ const sessions = ref([
   <Card pt:content:class="flex flex-col gap-3" pt:root:class="max-w-4xl">
     <template #title><span class="font-light">Technical Sessions</span></template>
     <template #content>
-      <Panel toggleable collapsed header="How to join a technical session?" pt:header:class="!bg-primary-300">
-        <div class="mt-2 pl-5">
-          <ol class="list-decimal">
-            <li>
-              Scan the QR code or click on the <Button>Event Page</Button> under the relevant Technical Session to go to its respective event page.
-            </li>
-            <li>
-              On the event page, click the <Button class="teamsbutton">Register</Button> to go the registration page.
+      <Accordion value="-1" pt:root:class="border rounded-lg border-primary-200 border-1">
+        <AccordionPanel value="0">
+          <AccordionHeader pt:root:class="!bg-primary-200">How to register to a technical session?</AccordionHeader>
+          <AccordionContent>
+            <div class="mt-2 pl-5">
+              <Message severity="secondary"><span class="font-bold">Summary</span><br>Register through the event page for respective technical session to receive a link in your email inbox.</Message>
+              <ol class="list-decimal">
+                <li>
+                  Scan the QR code or click  <Button>Event Page</Button> under the relevant Technical Session to go to its respective event page.
+                </li>
+                <li>
+                  On the event page, click  <Button class="teamsbutton">Register</Button> to go the registration page.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgRegister" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+                <li>
+                  Fill in your name, email address, and agree to the terms and conditions before clicking  <Button class="teamsbutton">Register</Button>.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgParticipants" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+                <li>
+                  You will see a dialog box indicating successful registration.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgConfirmation" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+                <li>
+                  You will receive the event link in the inbox of the registered email.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgEmail" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel value="1">
+          <AccordionHeader pt:root:class="!bg-primary-200">How to join a technical session?</AccordionHeader>
+          <AccordionContent>
+            <div class="mt-2 pl-5">
+              <Message severity="secondary"><span class="font-bold">Summary</span><br>Click on the link in your email and join the event from browser or MS Teams app.</Message>
+              <ol class="list-decimal">
+                <li>
+                  Click on the event link in the email you receive after registration.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgEmail" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+                <li>
+                  Join using browser or Microsoft Teams application.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgEventJoinPage" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+                <li>
+                  Fill in your display name and join the technical session.
+                  <br>
+                  <div class="instructionimagecontainer">
+                    <Inplace>
+                      <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                      <template #content="{ closeCallback }">
+                        <img class="instructionimage" :src="ImgEventJoiningDetails" @click="closeCallback"/>
+                      </template>
+                    </Inplace>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+        <AccordionPanel value="2">
+          <AccordionHeader pt:root:class="!bg-primary-200">For presenter</AccordionHeader>
+          <AccordionContent>
+            <div class="mt-2 text-center">
+              Please include your paper ID in your display name when you join the technical session.
               <br>
-              <div class="instructionimagecontainer"><img class="instructionimage" :src="ImgRegister"/></div>
-            </li>
-            <li>
-              Fill in your name, email address, and agree to the terms and conditions before clicking the  <Button class="teamsbutton">Register</Button>.
-              <br>
-              <img class="instructionimage" :src="ImgParticipants"/>
-            </li>
-            <li>
-              You will see a dialog box indicating successful registration.
-              <br>
-              <img class="instructionimage" :src="ImgConfirmation"/>
-            </li>
-          </ol>
-        </div>
-      </Panel>
+              <div class="instructionimagecontainer">
+                <Inplace>
+                  <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
+                  <template #content="{ closeCallback }">
+                    <img class="instructionimage" :src="ImgEventJoiningDetails" @click="closeCallback"/>
+                  </template>
+                </Inplace>
+              </div>
+            </div>
+          </AccordionContent>
+        </AccordionPanel>
+      </Accordion>
       <Accordion value="0">
         <AccordionPanel v-for="(session, index) in sessions" :key="index" :value="index">
           <AccordionHeader>
@@ -756,9 +858,13 @@ const sessions = ref([
 }
 
 .instructionimagecontainer {
-  @apply w-full text-center
+  @apply w-full text-center flex justify-center
 }
 .instructionimage {
-  @apply border border-primary my-2 p-2 border-2 max-w-8/10
+  @apply border border-primary-200 my-2 p-2 border-2 max-w-lg
+}
+
+li {
+  @apply mt-1
 }
 </style>
