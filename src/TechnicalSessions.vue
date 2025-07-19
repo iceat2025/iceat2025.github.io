@@ -802,7 +802,7 @@ const sessions = ref([
           <AccordionHeader pt:root:class="!bg-primary-200">For presenter</AccordionHeader>
           <AccordionContent>
             <div class="mt-2 text-center">
-              Please include your paper ID in your display name when you join the technical session.
+              Please include your paper ID in your display name when you join the technical session. If you can't change your display name, please notify the session chair through the Q&A section.
               <br>
               <div class="instructionimagecontainer">
                 <Inplace>
