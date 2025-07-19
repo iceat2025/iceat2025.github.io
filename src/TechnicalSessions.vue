@@ -760,7 +760,7 @@ const sessions = ref([
                 <li>
                   <!-- Click on the event link in the email you receive after registration. -->
                   Scan the QR code or click  <Button>Event Page</Button> under the relevant Technical Session to go to its respective event page.
-                  <br>
+                  <!-- <br>
                   <div class="instructionimagecontainer">
                     <Inplace>
                       <template #display><span class="text-xs flex align-center gap-2 text-gray-400"><i class="pi pi-eye"></i> Click to show image</span></template>
@@ -768,7 +768,7 @@ const sessions = ref([
                         <img class="instructionimage" :src="ImgEmail" @click="closeCallback"/>
                       </template>
                     </Inplace>
-                  </div>
+                  </div> -->
                 </li>
                 <li>
                   Join using browser or Microsoft Teams application.
