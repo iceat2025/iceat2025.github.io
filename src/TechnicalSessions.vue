@@ -369,7 +369,7 @@ const sessions = ref([
   {
     "name": "Technical Session 7: Hydraulic and Urban Systems in Civil Engineering",
     "date": "23 July, 2025",
-    "time": "14:00 - 16:30",
+    "time": "14:00 - 16:45",
     "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODY4YjIzYWYtZmUxNi00YzY0LTgxMGYtNDBhNGU3Zjk3NmEz%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22aebe1a8d-6246-486a-a733-5297c8cea7a8%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
@@ -416,13 +416,18 @@ const sessions = ref([
         "id": 181,
         "title": "Future Forecasts Of Rainfall Utilising The LARS-WG And CMIP6 Models ",
         "time": "16:15 - 16:30"
+      },
+      {
+        "id": 2,
+        "title": "A Comprehensive Index Framework for Evaluating Urban Road Safety Performance: A Systematic Literature Review",
+        "time": "16:30 - 16:45"
       }
     ]
   },
   {
     "name": "Technical Session 8: Sustainable Structural Systems and Materials in Civil Engineering",
     "date": "24 July, 2025",
-    "time": "10:00 - 12:30",
+    "time": "10:00 - 12:45",
     "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjY4MDk3YjAtMDU3Ni00ZTlkLTgwOWItNzJjZGRkN2I3OGNh%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22c088ff78-9819-4f26-b40a-726da4b61c9e%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
@@ -469,7 +474,12 @@ const sessions = ref([
         "id": 210,
         "title": "Development of Sustainable Fibre Reinforced High Strength Lightweight Concrete with Recycled Fine Aggregate and Silica Fume",
         "time": "12:15 - 12:30"
-      }
+      },
+      {
+        "id": 1,
+        "title": "Application of Electro-Osmosis Method on Baghdad Soft Clay Shear Strength Using Vane Shear Test and Pile Installation Efficiency (Experimental Study)",
+        "time": "12:30 - 12:45"
+      },
     ]
   },
   {
@@ -668,13 +678,13 @@ const sessions = ref([
         "time": "12:00 - 12:15"
       },
       {
-        "id": 199,
-        "title": "Developing a program to track the performance of multiple projects using Earned Value and Scorecard technology ",
+        "id": 14,
+        "title": "Design and Implementation of an IoT-Based System for Remote Monitoring of Vital Signs",
         "time": "12:15 - 12:30"
       },
       {
-        "id": 14,
-        "title": "Design and Implementation of an IoT-Based System for Remote Monitoring of Vital Signs",
+        "id": 199,
+        "title": "Developing a program to track the performance of multiple projects using Earned Value and Scorecard technology ",
         "time": "12:30 - 12:45"
       }
     ]
