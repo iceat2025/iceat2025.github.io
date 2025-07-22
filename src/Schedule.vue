@@ -22,7 +22,7 @@ const schedule = ref([
       { time: "14:00", name: "Physical presentation", venue: "LT7" },
       { time: "15:15", name: "Tea break", venue: "LT7" },
       { time: "15:30", name: "Physical presentation", venue: "LT7" },
-      { time: "16:30", name: "End of day 1", venue: "" },
+      { time: "17:00", name: "End of day 1", venue: "" },
     ]
   },
   {

@@ -13,7 +13,7 @@ const sessions = ref([
   {
     "name": "Physical Session (LT7)",
     "date": "23 July, 2025",
-    "time": "14:00 - 16:30",
+    "time": "14:00 - 17:00",
     // "qrdata": "Sunway University LT7",
     "papers": [
       {
@@ -60,7 +60,17 @@ const sessions = ref([
         "id": 180,
         "title": "Application of Kaplan Meier estimator model for validation of AURKC as an early biomarker for Kidney Cancer ",
         "time": "16:15 - 16:30"
-      }
+      },
+      {
+        "id": 2,
+        "title": "A Comprehensive Index Framework for Evaluating Urban Road Safety Performance: A Systematic Literature Review",
+        "time": "16:30 - 16:45"
+      },
+      {
+        "id": 157,
+        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
+        "time": "16:45 - 17:00"
+      },
     ]
   },
   {
@@ -369,7 +379,7 @@ const sessions = ref([
   {
     "name": "Technical Session 7: Hydraulic and Urban Systems in Civil Engineering",
     "date": "23 July, 2025",
-    "time": "14:00 - 16:45",
+    "time": "14:00 - 16:30",
     "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODY4YjIzYWYtZmUxNi00YzY0LTgxMGYtNDBhNGU3Zjk3NmEz%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22aebe1a8d-6246-486a-a733-5297c8cea7a8%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
@@ -416,11 +426,6 @@ const sessions = ref([
         "id": 181,
         "title": "Future Forecasts Of Rainfall Utilising The LARS-WG And CMIP6 Models ",
         "time": "16:15 - 16:30"
-      },
-      {
-        "id": 2,
-        "title": "A Comprehensive Index Framework for Evaluating Urban Road Safety Performance: A Systematic Literature Review",
-        "time": "16:30 - 16:45"
       }
     ]
   },
@@ -517,11 +522,6 @@ const sessions = ref([
         "id": 94,
         "title": "Catalytic Deoxygenation of Hydrolyzed Oil of Beef Tallow over Lanthanum-Embedded HZSM-5 Zeolite Catalyst to Produce Biofuels",
         "time": "11:30 - 11:45"
-      },
-      {
-        "id": 157,
-        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
-        "time": "11:45 - 12:00"
       },
       {
         "id": 164,
