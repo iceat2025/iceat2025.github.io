@@ -13,12 +13,12 @@ const sessions = ref([
   {
     "name": "Physical Session (LT7)",
     "date": "23 July, 2025",
-    "time": "14:00 - 17:00",
+    "time": "14:00 - 16:45",
     // "qrdata": "Sunway University LT7",
     "papers": [
       {
-        "id": 4,
-        "title": "Ozone-Based Advanced Oxidation Processes for Dye Removal: A Brief Review",
+        "id": 157,
+        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
         "time": "14:00 - 14:15"
       },
       {
@@ -65,11 +65,6 @@ const sessions = ref([
         "id": 2,
         "title": "A Comprehensive Index Framework for Evaluating Urban Road Safety Performance: A Systematic Literature Review",
         "time": "16:30 - 16:45"
-      },
-      {
-        "id": 157,
-        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
-        "time": "16:45 - 17:00"
       },
     ]
   },
@@ -543,7 +538,7 @@ const sessions = ref([
   {
     "name": "Technical Session 10: Environmental and Wastewater Treatment Technologies",
     "date": "24 July, 2025",
-    "time": "10:00 - 12:30",
+    "time": "10:00 - 12:45",
     "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWNjMGNjYzYtZmQ2YS00MTcxLWE4MTktYzBiMjk5ZWJlNGM1%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22e70e80ed-7ea7-45eb-b47c-ce857fb4cb94%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
@@ -590,7 +585,12 @@ const sessions = ref([
         "id": 143,
         "title": "Kinetic model of Lead (Pb) Adsorption by Raw and Carbonized Ceratophyllum demersum: Mechanisms and Rate Analysis\"\u00a0",
         "time": "12:15 - 12:30"
-      }
+      },
+      {
+        "id": 4,
+        "title": "Ozone-Based Advanced Oxidation Processes for Dye Removal: A Brief Review",
+        "time": "12:30 - 12:45"
+      },
     ]
   },
   {
