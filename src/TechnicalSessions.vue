@@ -13,7 +13,7 @@ const sessions = ref([
   {
     "name": "Physical Session (LT7)",
     "date": "23 July, 2025",
-    "time": "14:00 - 16:45",
+    "time": "14:00 - 17:00",
     // "qrdata": "Sunway University LT7",
     "papers": [
       {
@@ -66,6 +66,11 @@ const sessions = ref([
         "title": "A Comprehensive Index Framework for Evaluating Urban Road Safety Performance: A Systematic Literature Review",
         "time": "16:30 - 16:45"
       },
+      {
+        "id": 119,
+        "title": "Impact  of Nanomaterials Concentrations  on the Stress\u2013Strain Behavior and Elastic Modulus of Resin Coatings under an Applied Load ",
+        "time": "16:45 - 17:00"
+      }
     ]
   },
   {
@@ -83,11 +88,6 @@ const sessions = ref([
         "id": 45,
         "title": "A Review of Novel Nanocomposite Adsorbents for Ultra-Deep Desulfurization of Diesel Fuel: Recent Advances and Future Perspectives",
         "time": "10:15 - 10:30"
-      },
-      {
-        "id": 119,
-        "title": "Impact  of Nanomaterials Concentrations  on the Stress\u2013Strain Behavior and Elastic Modulus of Resin Coatings under an Applied Load ",
-        "time": "10:30 - 10:45"
       },
       {
         "id": 130,
