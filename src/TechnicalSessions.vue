@@ -17,11 +17,6 @@ const sessions = ref([
     // "qrdata": "Sunway University LT7",
     "papers": [
       {
-        "id": 157,
-        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
-        "time": "14:00 - 14:15"
-      },
-      {
         "id": 50,
         "title": "Numerical Investigation about Diesel Engine Powered by Waste Plastic Oil Blends under Different Load and Engine Speed",
         "time": "14:15 - 14:30"
@@ -512,6 +507,11 @@ const sessions = ref([
         "id": 94,
         "title": "Catalytic Deoxygenation of Hydrolyzed Oil of Beef Tallow over Lanthanum-Embedded HZSM-5 Zeolite Catalyst to Produce Biofuels",
         "time": "11:30 - 11:45"
+      },
+      {
+        "id": 157,
+        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
+        "time": "11:45 - 12:00"
       },
       {
         "id": 164,
