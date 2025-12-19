@@ -118,8 +118,8 @@ const sessions = ref([
         "time": "10:15 - 10:30"
       },
       {
-        "id": 47,
-        "title": "Adaptive Algorithm for Transmission Images in 3D LTE Wireless Communication System Channel Based on MIMO-OFDM",
+        "id": 219,
+        "title": "Evaluation and Enhancement of Solar Energy-Enabled Intelligent Structural Systems",
         "time": "10:30 - 10:45"
       },
       {
@@ -214,8 +214,8 @@ const sessions = ref([
         "time": "14:15 - 14:30"
       },
       {
-        "id": 74,
-        "title": "A Multi-Kernel Convolutional Neural Network Model for Classifying Plant Leaf Diseases",
+        "id": 221,
+        "title": "Investigation of IMU Motion Effects based on MPU 6050 Using a Dynamic Motion Testing Device",
         "time": "14:30 - 14:45"
       },
       {
@@ -234,8 +234,8 @@ const sessions = ref([
         "time": "15:30 - 15:45"
       },
       {
-        "id": 114,
-        "title": "Analyzing Power Plant Data Using Artificial Intelligence to Enhance Maintenance Strategy ",
+        "id": 222,
+        "title": "Designing a Robotic System for Efficient Exam Paper Distribution Using Multi-Sensor Technology",
         "time": "15:45 - 16:00"
       },
       {
