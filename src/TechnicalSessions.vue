@@ -17,11 +17,6 @@ const sessions = ref([
     // "qrdata": "Sunway University LT7",
     "papers": [
       {
-        "id": 4,
-        "title": "Ozone-Based Advanced Oxidation Processes for Dye Removal: A Brief Review",
-        "time": "14:00 - 14:15"
-      },
-      {
         "id": 50,
         "title": "Numerical Investigation about Diesel Engine Powered by Waste Plastic Oil Blends under Different Load and Engine Speed",
         "time": "14:15 - 14:30"
@@ -57,20 +52,15 @@ const sessions = ref([
         "time": "16:00 - 16:15"
       },
       {
-        "id": 180,
-        "title": "Application of Kaplan Meier estimator model for validation of AURKC as an early biomarker for Kidney Cancer ",
-        "time": "16:15 - 16:30"
-      },
-      {
         "id": 2,
         "title": "A Comprehensive Index Framework for Evaluating Urban Road Safety Performance: A Systematic Literature Review",
         "time": "16:30 - 16:45"
       },
       {
-        "id": 157,
-        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
+        "id": 119,
+        "title": "Impact  of Nanomaterials Concentrations  on the Stress\u2013Strain Behavior and Elastic Modulus of Resin Coatings under an Applied Load ",
         "time": "16:45 - 17:00"
-      },
+      }
     ]
   },
   {
@@ -88,11 +78,6 @@ const sessions = ref([
         "id": 45,
         "title": "A Review of Novel Nanocomposite Adsorbents for Ultra-Deep Desulfurization of Diesel Fuel: Recent Advances and Future Perspectives",
         "time": "10:15 - 10:30"
-      },
-      {
-        "id": 119,
-        "title": "Impact  of Nanomaterials Concentrations  on the Stress\u2013Strain Behavior and Elastic Modulus of Resin Coatings under an Applied Load ",
-        "time": "10:30 - 10:45"
       },
       {
         "id": 130,
@@ -133,8 +118,8 @@ const sessions = ref([
         "time": "10:15 - 10:30"
       },
       {
-        "id": 47,
-        "title": "Adaptive Algorithm for Transmission Images in 3D LTE Wireless Communication System Channel Based on MIMO-OFDM",
+        "id": 219,
+        "title": "Evaluation and Enhancement of Solar Energy-Enabled Intelligent Structural Systems",
         "time": "10:30 - 10:45"
       },
       {
@@ -229,8 +214,8 @@ const sessions = ref([
         "time": "14:15 - 14:30"
       },
       {
-        "id": 74,
-        "title": "A Multi-Kernel Convolutional Neural Network Model for Classifying Plant Leaf Diseases",
+        "id": 221,
+        "title": "Investigation of IMU Motion Effects based on MPU 6050 Using a Dynamic Motion Testing Device",
         "time": "14:30 - 14:45"
       },
       {
@@ -249,8 +234,8 @@ const sessions = ref([
         "time": "15:30 - 15:45"
       },
       {
-        "id": 114,
-        "title": "Analyzing Power Plant Data Using Artificial Intelligence to Enhance Maintenance Strategy ",
+        "id": 222,
+        "title": "Designing a Robotic System for Efficient Exam Paper Distribution Using Multi-Sensor Technology",
         "time": "15:45 - 16:00"
       },
       {
@@ -524,6 +509,11 @@ const sessions = ref([
         "time": "11:30 - 11:45"
       },
       {
+        "id": 157,
+        "title": "Synthesis and Characterization of Niobium promoted Ni/Mesoporous MCM-41 for potential application in steam reforming of glycerol using a fixed bed reactor ",
+        "time": "11:45 - 12:00"
+      },
+      {
         "id": 164,
         "title": "Elucidating CO2 adsorptivity of Ni-Co-Y/MCM-41 as a potential pathway for CO2 reforming of ethanol ",
         "time": "12:00 - 12:15"
@@ -543,7 +533,7 @@ const sessions = ref([
   {
     "name": "Technical Session 10: Environmental and Wastewater Treatment Technologies",
     "date": "24 July, 2025",
-    "time": "10:00 - 12:30",
+    "time": "10:00 - 13:00",
     "qrdata": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWNjMGNjYzYtZmQ2YS00MTcxLWE4MTktYzBiMjk5ZWJlNGM1%40thread.v2/0?context=%7b%22Tid%22%3a%22051008eb-db40-4249-9ece-9df3e8c3f594%22%2c%22Oid%22%3a%2254810cb6-d6b6-4c22-ab11-89e096893dfd%22%2c%22prid%22%3a%22e70e80ed-7ea7-45eb-b47c-ce857fb4cb94%22%2c%22isPublic%22%3atrue%7d",
     "papers": [
       {
@@ -590,7 +580,17 @@ const sessions = ref([
         "id": 143,
         "title": "Kinetic model of Lead (Pb) Adsorption by Raw and Carbonized Ceratophyllum demersum: Mechanisms and Rate Analysis\"\u00a0",
         "time": "12:15 - 12:30"
-      }
+      },
+      {
+        "id": 4,
+        "title": "Ozone-Based Advanced Oxidation Processes for Dye Removal: A Brief Review",
+        "time": "12:30 - 12:45"
+      },
+      {
+        "id": 180,
+        "title": "Application of Kaplan Meier estimator model for validation of AURKC as an early biomarker for Kidney Cancer ",
+        "time": "12:45 - 13:00"
+      },
     ]
   },
   {
